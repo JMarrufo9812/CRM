@@ -1,0 +1,77 @@
+::v-deep .tiptap-vuetify-editor__content {
+  background-color: #fff;
+  height: 100%;
+  padding: 0 !important;
+  .ProseMirror {
+    margin: 0 !important;
+    padding: 15px !important;
+
+    p {
+      margin-top: 0 !important;
+      margin-bottom: 8px !important;
+    }
+
+    ol,
+    ul {
+      li p {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+}
+
+::v-deep img {
+  max-width: 250px;
+  height: auto;
+  max-height: 250px;
+  margin-left: 10px;
+}
+
+::v-deep .tiptap-vuetify-editor {
+  .tiptap-vuetify-editor__content {
+    background-color: #f5f5f5;
+    height: 100%;
+    padding: 0 !important;
+    .ProseMirror {
+      margin: 0 !important;
+      padding: 15px !important;
+    }
+  }
+  .tiptap-vuetify-editor__footer {
+    padding: 1rem;
+  }
+}
+
+.is-active {
+  background-color: #bbbbbb;
+}
+
+::v-deep .variable {
+  background: #8f201b;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.2rem 0.2rem;
+  white-space: nowrap;
+  border-radius: 10px;
+}
+
+::v-deep .mention {
+  background-color: #801e1e;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 0.05rem 0.4rem;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+::v-deep .is-selected {
+  background-color: #bebebef0;
+  color: #ffffff;
+}
+
+.menubar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}

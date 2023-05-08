@@ -1,0 +1,5 @@
+@import 'header.search.mixin';
+
+.header-search {
+  @include header-search();
+}

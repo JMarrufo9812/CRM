@@ -1,0 +1,9 @@
+.no-icon {
+  ::v-deep .v-input__icon--prepend {
+    display: none;
+  }
+}
+
+.full-width {
+  width: 100% !important;
+}

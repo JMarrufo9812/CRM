@@ -1,0 +1,56 @@
+@import '../settings/font';
+@import 'menu.mixin';
+
+.stages-container {
+  overflow-x: auto;
+}
+
+.title-stage {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #ebebeb;
+  font-weight: $font-semibold;
+  font-size: 0.6em;
+}
+
+.stage {
+  background-color: #f9f9f9;
+}
+
+.blur-stage {
+  border: 3px dashed rgba(124, 255, 0);
+  background-color: rgba(215, 255, 220, 0.3);
+}
+
+.deal {
+  overflow: hidden;
+}
+
+.vertical-line {
+  border-bottom: 1px solid #e3e3e3;
+}
+
+::v-deep .v-skeleton-loader__image {
+  height: 600px !important;
+}
+
+//  fix icon rotate search
+::v-deep .v-select.v-select--is-menu-active .v-input__icon--append .v-icon {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.v-card__text > div {
+  max-height: 100%;
+  height: 450px;
+  overflow-y: auto;
+}
+
+::v-deep .draggable_zone > div > div {
+  height: 450px !important;
+}
+
+.text-list-menu {
+  @include text-list-menus();
+}

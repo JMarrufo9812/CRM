@@ -1,0 +1,28 @@
+@import 'profiles.mixin.scss';
+
+.companies-title {
+  @include title-details();
+}
+
+.Company {
+  .Company__title {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+  .Company__edit {
+    display: none;
+  }
+  &:hover .Company__edit {
+    display: block;
+  }
+  .Company__box {
+    cursor: pointer;
+    &:hover .Company__box_name {
+      text-decoration: underline;
+    }
+  }
+}
+
+.companies-container {
+  overflow-y: auto;
+}

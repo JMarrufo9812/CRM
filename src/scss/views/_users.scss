@@ -1,0 +1,13 @@
+.v-list-item > button {
+  display: none;
+}
+.v-list-item {
+  &:hover {
+    button {
+      display: block;
+    }
+  }
+}
+.v-list-item > div > span > button {
+  display: none;
+}

@@ -1,0 +1,13 @@
+@mixin stage-container() {
+  background: #ebebeb;
+  overflow-x: auto;
+}
+
+@mixin stage() {
+  background-color: #ffffff;
+}
+
+@mixin stage-header() {
+  background: #2e2e2f;
+  color: #ffffff;
+}

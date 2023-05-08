@@ -1,0 +1,12 @@
+.v-item-group {
+  margin-top: 1.5rem !important;
+}
+
+::v-deep .tab-text {
+  color: #ffffff !important;
+}
+
+.v-virtual-scroll {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

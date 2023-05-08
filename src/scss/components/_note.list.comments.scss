@@ -1,0 +1,22 @@
+.comment {
+  .comment__content {
+    font-size: 14px;
+    line-height: 1.4rem;
+  }
+
+  .comment__actions {
+    display: none;
+  }
+
+  &:hover .comment__actions {
+    display: block;
+  }
+}
+
+::v-deep .mention {
+  background-color: #801e1e;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 0.2rem;
+}

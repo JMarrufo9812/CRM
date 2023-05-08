@@ -1,0 +1,32 @@
+@import '../settings/color.scss';
+@import '../settings/font.scss';
+
+.line-open-deal {
+  border-top: 6px solid $color-primary;
+}
+
+.line-lost-deal {
+  border-top: 6px solid $color-secondary;
+}
+
+.line-won-deal {
+  border-top: 6px solid $color-succes;
+}
+
+.title-deal {
+  cursor: pointer;
+  line-height: 0;
+  word-break: break-word;
+  font-size: 0.8rem;
+  font-weight: $font-semibold;
+}
+
+.deal-value {
+  font-size: 0.7rem;
+  font-weight: $font-regular;
+}
+
+.deal-tag {
+  font-size: 0.6rem;
+  font-weight: $font-semibold;
+}

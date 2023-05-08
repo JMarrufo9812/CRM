@@ -1,0 +1,31 @@
+.user-name {
+  font-weight: $font-regular;
+  font-size: 0.9rem;
+}
+
+.user-enterprise {
+  font-weight: $font-regular;
+  color: #9d9d9e;
+  font-size: 0.7rem;
+}
+
+.user-settings {
+  font-weight: $font-regular;
+  font-size: 0.8rem;
+}
+
+.select-class {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.title-confirmation {
+  font-weight: $font-semibold;
+  font-size: 0.7em;
+}
+
+.text-confirmation {
+  font-weight: $font-bold;
+  font-size: 0.6em;
+}

@@ -1,0 +1,9 @@
+@import '../views/menu.mixin';
+
+.scroll {
+  overflow-y: scroll;
+}
+
+.text-list-menu {
+  @include text-list-menus();
+}

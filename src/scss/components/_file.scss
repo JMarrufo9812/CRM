@@ -1,0 +1,8 @@
+@import 'history.cards.mixin.scss';
+
+.file-name {
+  @include titles();
+  &:hover {
+    cursor: pointer;
+  }
+}

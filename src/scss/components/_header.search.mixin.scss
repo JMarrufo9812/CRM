@@ -1,0 +1,6 @@
+@import '../settings/color.scss';
+
+@mixin header-search() {
+  background: $color-primary;
+  color: #ffffff;
+}

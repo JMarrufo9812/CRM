@@ -1,0 +1,51 @@
+@import '../settings/font';
+
+.user-name-settings {
+  font-weight: $font-semibold;
+  font-size: 1.8rem;
+}
+
+.email-settings {
+  font-weight: $font-semibold;
+  color: #9d9d9e;
+}
+
+.inputs-user-preferences {
+  width: 70%;
+}
+
+.inputs-user-settings {
+  width: 50%;
+}
+
+.v-list-item__title > button {
+  display: none;
+}
+
+.v-list-item__title {
+  &:hover {
+    button {
+      display: inline-block;
+    }
+  }
+}
+
+::v-deep .v-avatar {
+  .v-input__prepend-outer {
+    margin-right: 0px !important;
+  }
+
+  .theme--light.v-icon {
+    color: white !important;
+    font-size: 15px;
+  }
+  position: relative;
+  .hide-input {
+    display: none;
+    position: absolute;
+    bottom: 4px;
+  }
+  &:hover .hide-input {
+    display: block;
+  }
+}

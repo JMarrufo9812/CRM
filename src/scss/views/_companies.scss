@@ -1,0 +1,5 @@
+@import 'menu.mixin';
+
+.text-list-menu {
+  @include text-list-menus();
+}

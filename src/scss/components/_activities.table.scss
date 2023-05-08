@@ -1,0 +1,21 @@
+::v-deep .activities-table {
+  font-weight: $font-bold;
+
+  th {
+    background: $color-primary;
+    color: #ffffff !important;
+  }
+
+  td {
+    box-shadow: 0.5em 0 5px #00000029;
+    border-top: 0.5rem solid #ebebeb;
+    background: #ffffff 0% 0%;
+    height: 6em !important;
+  }
+
+  .v-simple-checkbox {
+    .mdi-checkbox-marked {
+      color: $color-secondary;
+    }
+  }
+}

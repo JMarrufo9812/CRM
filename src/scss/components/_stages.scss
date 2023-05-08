@@ -1,0 +1,111 @@
+.cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .pipeline {
+    position: relative;
+  
+    .Pipeline__stages {
+      position: relative;
+      display: table;
+      height: 25px;
+      overflow: visible;
+      ul {
+        width: 100%;
+        display: table;
+        border-collapse: collapse;
+        table-layout: fixed;
+        height: 30px;
+        -ms-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+        overflow: hidden;
+        list-style: none;
+      }
+    }
+  
+    .Stage {
+      position: relative;
+      background: #e5e5e5;
+      display: table-cell;
+      text-align: left;
+      line-height: 24px;
+      vertical-align: middle;
+      color: #fff;
+      text-align: center;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  
+      .Stage__content {
+        position: relative;
+      }
+  
+      .Stage__name {
+        font: 400 13px/16px Source Sans Pro, sans-serif;
+        display: inline-block;
+        position: relative;
+        left: 4px;
+      }
+  
+      .Stage__separator {
+        width: 5px;
+        height: 30px;
+        position: absolute;
+        top: -5px;
+        left: 0;
+        overflow: hidden;
+  
+        &:after {
+          width: 23px;
+          height: 22px;
+          position: absolute;
+          right: -7px;
+          top: 5px;
+          border-top: 5px solid #fff;
+          border-right: 5px solid #fff;
+          transform: scaleX(0.3) rotate(45deg);
+          content: ' ';
+          cursor: pointer;
+          background: #e5e5e5;
+        }
+      }
+  
+      &:first-child .Stage__separator {
+        display: none;
+      }
+  
+      &.active {
+        background: #2e2e2f;
+  
+        .Stage__separator {
+          &:after {
+            background: #2e2e2f;
+          }
+        }
+      }
+  
+      &.active + .Stage .Stage__separator:after {
+        border-top: 3px solid #fff;
+        border-right: 3px solid #fff;
+        background: #2e2e2f;
+      }
+  
+      &.desactive {
+        background: #ff5252;
+  
+        .Stage__separator {
+          &:after {
+            background: #ff5252;
+          }
+        }
+      }
+  
+      &.desactive + .Stage .Stage__separator:after {
+        border-top: 3px solid #fff;
+        border-right: 3px solid #fff;
+        background: #ff5252;
+      }
+    }
+  }

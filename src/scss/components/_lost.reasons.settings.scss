@@ -1,0 +1,47 @@
+@import '../settings/font';
+
+.title-lost-reason-settings {
+  font-weight: $font-bold;
+  font-size: 1emm;
+  padding-top: 6em;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+.title-lost-reasons {
+  font-weight: $font-bold;
+}
+
+.reason-text {
+  font-weight: $font-regular;
+  color: #9d9d9e;
+  white-space: initial;
+  overflow: hidden;
+}
+
+.add-lost-reason-box {
+  background: #f9f9f9;
+}
+
+.field {
+  padding-top: 10%;
+}
+.scroll {
+  overflow-y: scroll;
+}
+
+::v-deep .v-skeleton-loader__image {
+  height: 500px !important;
+}
+
+.item {
+  &:hover {
+    .icon-btn {
+      display: inline-block;
+    }
+  }
+}
+
+.icon-btn {
+  display: none;
+}

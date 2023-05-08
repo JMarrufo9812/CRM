@@ -1,0 +1,23 @@
+// Calendar settings
+.title-activities-types {
+  font-weight: $font-bold;
+}
+
+.full-heigth {
+  height: 100%;
+}
+
+.settings-calendar-box {
+  background: #f9f9f9;
+}
+
+.item-type-activity {
+  &:hover {
+    background: #cd9b9b;
+    cursor: pointer;
+    .handle {
+      color: #ffffff;
+      cursor: move;
+    }
+  }
+}

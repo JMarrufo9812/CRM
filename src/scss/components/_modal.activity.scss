@@ -1,0 +1,16 @@
+::v-deep .v-input__append-outer {
+  margin-left: 0 !important;
+}
+
+::v-deep .time-calendar {
+  .v-select__selections {
+    display: inline-block;
+    input {
+      display: none;
+    }
+  }
+}
+
+::v-deep .v-text-field__slot {
+  width: 100%;
+}

@@ -1,0 +1,33 @@
+::v-deep .tiptap-vuetify-editor {
+  .tiptap-vuetify-editor__content {
+    height: 100%;
+    .ProseMirror {
+      min-height: 150px;
+      margin: 10px 30px 10px 10px !important;
+    }
+  }
+  .tiptap-vuetify-editor__footer {
+    padding: 1rem;
+  }
+}
+
+.is-active {
+  background-color: #bbbbbb;
+}
+
+::v-deep .variable {
+  background: #8f201b;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.2rem 0.2rem;
+  white-space: nowrap;
+}
+
+.message ::v-deep .tiptap-vuetify-editor__content {
+  height: 300px;
+
+  .ProseMirror {
+    height: 100%;
+  }
+}

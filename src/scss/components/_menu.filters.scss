@@ -1,0 +1,23 @@
+.filter-item .filter-action > button {
+    display: none;
+  }
+  
+  .filter-item {
+    .filter-action > .check-icon {
+      display: block;
+    }
+    &:hover {
+      background-color: #f5f5f5;
+      .filter-action > .check-icon {
+        display: none;
+      }
+      .filter-action > button {
+        display: block;
+      }
+    }
+  }
+  .filter-title {
+    &:hover {
+      cursor: pointer;
+    }
+  }

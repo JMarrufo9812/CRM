@@ -1,0 +1,24 @@
+@import 'profiles.mixin.scss';
+
+.contacts-title {
+  @include title-details();
+}
+
+.Contact {
+  .Contact__title {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+  .Contact__edit {
+    display: none;
+  }
+  &:hover .Contact__edit {
+    display: block;
+  }
+  .Contact__box {
+    cursor: pointer;
+    &:hover .Contact__box_name {
+      text-decoration: underline;
+    }
+  }
+}

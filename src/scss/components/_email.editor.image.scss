@@ -1,0 +1,17 @@
+::v-deep .vue-dropzone > .dz-preview .dz-error-message {
+  top: 0;
+}
+
+::v-deep .vue-dropzone > .dz-preview .dz-remove {
+  background-color: #ae2723;
+  border-color: #ae2723;
+  padding: 5px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+::v-deep .vue-dropzone > .dz-preview .dz-progress .dz-upload {
+  background: #0ff50c;
+}

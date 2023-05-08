@@ -1,0 +1,17 @@
+@import 'modal.duplicate.mixin';
+
+.group-company {
+  .action {
+    display: none;
+  }
+
+  &:hover {
+    .action {
+      display: inherit;
+    }
+  }
+}
+
+.text-no-duplicate {
+  @include text-no-duplicates();
+}

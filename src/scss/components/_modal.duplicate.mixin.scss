@@ -1,0 +1,6 @@
+@import '../settings/font.scss';
+
+@mixin text-no-duplicates() {
+  font-weight: $font-bold;
+  font-size: 1.4em;
+}

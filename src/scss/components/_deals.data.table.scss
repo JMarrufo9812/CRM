@@ -1,0 +1,40 @@
+@import 'data.table.mixin';
+
+.table-headers-interactive {
+  @include table-headers();
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+::v-deep .deals-data-table {
+  @include table-fonts();
+
+  .text-start {
+    padding: 0;
+    .v-data-table__checkbox {
+      @include table-properties-select-item();
+    }
+  }
+
+  tr {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  td {
+    @include table-td-properties();
+  }
+
+  .v-simple-checkbox {
+    .mdi-checkbox-marked {
+      color: $color-secondary;
+    }
+  }
+}
+
+.data-table-container {
+  @include container-table();
+}

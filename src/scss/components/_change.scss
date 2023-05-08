@@ -1,0 +1,10 @@
+@import '../settings/font.scss';
+@import 'history.cards.mixin.scss';
+
+.title-change {
+  @include titles();
+}
+
+.text-bold {
+  font-weight: $font-bold;
+}

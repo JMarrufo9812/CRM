@@ -1,0 +1,5 @@
+@import 'text.mixin';
+
+.select-text-underline {
+  @include select-text-underline();
+}

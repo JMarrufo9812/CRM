@@ -1,0 +1,11 @@
+@import '../settings/font';
+@import '../settings/color';
+
+.title-delete {
+  font-weight: $font-bold;
+}
+
+.item-delete {
+  font-weight: $font-bold;
+  color: $color-secondary;
+}

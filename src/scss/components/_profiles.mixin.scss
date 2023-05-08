@@ -1,0 +1,6 @@
+@import '../settings/font.scss';
+
+@mixin title-details() {
+  font-weight: $font-bold;
+  font-size: 1.2em;
+}

@@ -1,0 +1,43 @@
+.box-calendar {
+  flex: 1 0 160px;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+:v-deep .v-current-time {
+  height: 2px;
+  background-color: #ea4335;
+  position: absolute;
+  left: -1px;
+  right: 0;
+  pointer-events: none;
+
+  &.first::before {
+    content: '';
+    position: absolute;
+    background-color: #ea4335;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-left: -6.5px;
+  }
+
+  span {
+    position: absolute;
+    left: -40px;
+    font-size: 10px;
+    font-weight: bold;
+    color: red;
+    top: -10px;
+  }
+}
+
+::v-deep .v-calendar-daily_head-weekday {
+  display: none;
+}
+
+.v-calendar-daily__scroll-area {
+  overflow-y: none;
+}

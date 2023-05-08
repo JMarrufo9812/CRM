@@ -1,0 +1,16 @@
+@import 'footer.data.table.mixin';
+@import '../settings/color.scss';
+
+.footer-title {
+  @include footer-text();
+}
+
+.footer-title-info {
+  @include footer-text();
+  color: #9d9d9e;
+}
+
+.footer-info {
+  @include footer-text();
+  color: $color-secondary;
+}

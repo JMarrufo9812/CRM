@@ -1,0 +1,6 @@
+@mixin select-text-underline() {
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}

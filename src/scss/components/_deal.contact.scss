@@ -1,0 +1,30 @@
+@import 'profiles.mixin.scss';
+
+
+.contact-name {
+  @include title-details();
+}
+
+::v-deep .v-autocomplete.v-select.v-input--is-focused input {
+  min-width: 0 !important;
+}
+
+.Contact {
+  .Contact__title {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    margin-left: 0.5rem;
+  }
+  .Contact__edit {
+    display: none;
+  }
+  &:hover .Contact__edit {
+    display: block;
+  }
+  .Contact__box {
+    cursor: pointer;
+    &:hover .Contact__box_name {
+      text-decoration: underline;
+    }
+  }
+}

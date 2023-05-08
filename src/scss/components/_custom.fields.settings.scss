@@ -1,0 +1,21 @@
+@import '../settings/font';
+
+.title-custom-fields {
+  font-weight: $font-bold;
+}
+
+.header-custom-fields-box {
+  background: #f9f9f9;
+}
+
+.label-fields {
+  font-size: 0.9em;
+}
+
+.cursor-style {
+  cursor: move;
+}
+
+.scroll {
+  overflow-y: scroll;
+}

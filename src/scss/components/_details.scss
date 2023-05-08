@@ -1,0 +1,25 @@
+@import 'profiles.mixin.scss';
+
+.details-title {
+  @include title-details();
+}
+
+.profile__input {
+  position: relative;
+  &:hover {
+    background-color: #f5f5f5;
+    .profile__input__edit {
+      display: block;
+    }
+  }
+  .profile__input__edit {
+    display: none;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 0;
+  }
+}
+
+.details-container {
+  overflow-y: auto;
+}

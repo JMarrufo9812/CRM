@@ -1,0 +1,28 @@
+@import '../settings/font';
+
+.header-enterprises {
+  background: #f9f9f9;
+}
+
+.title-eneterprise-settings {
+  font-weight: $font-bold;
+}
+
+.enterprise-box {
+  &:hover {
+    cursor: pointer;
+  }
+  border-bottom: #ebebeb 1px solid !important;
+}
+
+.enterprise-name {
+  font-weight: $font-bold;
+}
+
+.enterprise-selected {
+  background: #cd9b9b;
+}
+
+.text-note-enterprise {
+  color: #000;
+}

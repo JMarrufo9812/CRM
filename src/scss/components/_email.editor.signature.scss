@@ -1,0 +1,18 @@
+::v-deep .ProseMirror {
+  margin: 0 !important;
+  padding: 0 10px;
+  min-height: 100px;
+  height: 100%;
+}
+
+::v-deep .tiptap-vuetify-editor__content {
+  height: 250px;
+}
+
+.is-active {
+  background-color: #bbbbbb;
+}
+
+::v-deep .card-overflow {
+  width: 400px;
+}

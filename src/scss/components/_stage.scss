@@ -1,0 +1,40 @@
+@import 'stage.mixin';
+
+.stage-container {
+  @include stage-container();
+}
+
+.stage {
+  @include stage();
+}
+
+.stage-edit {
+  @include stage();
+
+  .stage-actions {
+    padding-top: 4rem;
+    .button-delete-stage {
+      display: none;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+    .stage-actions {
+      padding-top: 0rem;
+      .button-delete-stage {
+        display: block;
+      }
+    }
+  }
+}
+
+.stage-header {
+  @include stage-header();
+}
+
+.stage-header-edit {
+  cursor: move;
+  @include stage-header();
+}

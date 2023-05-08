@@ -1,0 +1,5 @@
+@import 'history.cards.mixin.scss';
+
+.action-title {
+  @include titles();
+}

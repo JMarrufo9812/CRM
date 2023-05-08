@@ -1,0 +1,7 @@
+@import '../settings/font.scss';
+
+
+@mixin footer-text() {
+  font-weight: $font-semibold;
+  font-size: 1.2rem;
+}

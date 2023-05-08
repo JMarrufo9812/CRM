@@ -1,0 +1,5 @@
+@import 'chart.mixin';
+
+.chart {
+  @include chart();
+}

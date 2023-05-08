@@ -1,0 +1,30 @@
+@import '../settings/color.scss';
+
+@mixin table-headers() {
+  background: $color-primary;
+  color: #ffffff !important;
+}
+
+@mixin table-fonts() {
+  font-weight: $font-bold;
+}
+
+@mixin table-properties-select-item() {
+  &:hover {
+    cursor: pointer;
+  }
+  padding-top: 1.8em;
+  padding-bottom: 1.8em;
+  padding-left: 1em;
+}
+
+@mixin table-td-properties() {
+  box-shadow: 0.5em 0 5px #00000029;
+  border-top: 0.5rem solid #ebebeb;
+  background: #ffffff 0% 0%;
+  height: 6em !important;
+}
+
+@mixin container-table() {
+  min-height: 32em;
+}

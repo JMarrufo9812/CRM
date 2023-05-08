@@ -1,0 +1,6 @@
+@import '../settings/font';
+
+@mixin text-list-menus() {
+  font-size: 0.9em;
+  font-weight: $font-semibold;
+}

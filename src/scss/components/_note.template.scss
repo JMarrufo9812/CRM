@@ -1,0 +1,34 @@
+@import 'history.cards.mixin.scss';
+
+.note {
+  .v-card__title {
+    padding-top: 0.5rem;
+  }
+  .v-list-item__content {
+    padding: 0;
+  }
+  .v-list-item__action {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .v-card__subtitle {
+    font-size: 12px;
+    padding: 0 1rem 0.5rem 1rem;
+  }
+  .v-card__text {
+    color: black;
+    padding-bottom: 0.5rem;
+  }
+}
+
+::v-deep .mention {
+  background-color: #801e1e;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 0.2rem;
+}
+
+.title-note {
+  @include titles();
+}

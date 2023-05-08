@@ -1,0 +1,22 @@
+@import '../settings/font';
+
+.title-notifications {
+  font-weight: $font-semibold;
+  font-size: 1rem;
+}
+
+.description-notification {
+  font-weight: $font-regular;
+  font-size: 0.8rem;
+  color: #9d9d9e;
+}
+
+.time-notification {
+  font-weight: $font-regular;
+  font-size: 0.7rem;
+  color: #9d9d9e;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
