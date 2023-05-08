@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0c1789"],{"45d6":function(r,e,a){"use strict";a.r(e);var n=function(){var r=this,e=r.$createElement,a=r._self._c||e;return a("v-overlay",[a("v-progress-circular",{attrs:{size:50,color:"primary",indeterminate:""}})],1)},c=[],t={name:"Loading"},l=t,s=a("0c7c"),i=a("6544"),o=a.n(i),u=a("a797"),p=a("490a"),d=Object(s["a"])(l,n,c,!1,null,null,null);e["default"]=d.exports;o()(d,{VOverlay:u["a"],VProgressCircular:p["a"]})}}]);
-//# sourceMappingURL=chunk-2d0c1789.6ba1c522.js.map
